@@ -1,0 +1,9 @@
+.userListTableHeading {
+    font-size: 16px !important;
+    font-weight: 400 !important;
+}
+
+.userListTableText {
+    font-size: 13px;
+    font-weight: 300;
+}

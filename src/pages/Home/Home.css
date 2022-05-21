@@ -1,0 +1,33 @@
+.homeContainer {    
+    background: #E7EBEF;
+    padding: 20px;
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.homeHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.homeText {
+    font-size: 21px;
+}
+
+.homeContainerAddNewUserButton {
+    margin: 0px 0px 15px 0px !important;
+    width: 250px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    
+    .homeContainerAddNewUserButton {
+        width: 150px;
+    }
+    .homeContainer {
+        padding: 10px
+    }
+}

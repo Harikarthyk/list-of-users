@@ -1,0 +1,27 @@
+.editUserContainer {
+    background: #E7EBEF;
+    padding: 20px;
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+form.editUserForm {
+    padding: 10px;
+    background: white;
+    border-radius: 5px;
+    border: 1px solid #e2e0e0;
+    width: 50%;
+}
+
+@media only screen and (max-width: 600px) {
+    form.editUserForm {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    form.editUserForm {
+        width: 95%;
+    }
+}
