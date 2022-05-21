@@ -4,7 +4,7 @@
 
 ## Libraries
 
-**Redux:** For State Mangement.
+**Redux:** For State Management.
 
 **Redux-Persist:** For Storing State(Redux) to local storage.
 
